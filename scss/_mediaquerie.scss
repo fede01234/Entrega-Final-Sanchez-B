@@ -1,0 +1,126 @@
+
+
+
+
+  @media only screen and (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      /* grid-column-gap: 30px; */
+      /* justify-items: center;
+      align-items: center; */
+      grid-template-areas: 
+        'header main '
+        'footer aside';
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1024px) {
+    .grid-container { 
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      /* grid-column-gap: 30px; */
+      /* justify-items: center;
+      align-items: center; */
+      grid-template-areas: 
+        'header main '
+        'footer aside';
+    }
+
+    
+  }
+  @media only screen and (min-width: 1280px) {
+    .grid-container { 
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      /* grid-column-gap: 30px; */
+      /* justify-items: center;
+      align-items: center; */
+      grid-template-areas: 
+        'header main '
+        'footer aside';
+    }
+
+    
+  }
+
+/*------------------------------------------------------------------
+[ contacto ]*/
+ 
+
+
+  @media (max-width: 576px) {
+    .contact100-form {
+      padding: 43px 15px 57px 117px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .contact100-form {
+      padding: 43px 15px 57px 15px;
+    }
+  
+    .label-input100 {
+      text-align: left;
+      position: unset;
+      top: unset;
+      left: unset;
+      width: 100%;
+      padding: 0 5px;
+    }
+  }
+  /*------------------------------------------------------------------
+[  ]*/
+@media (min-width: 320px) {
+  .container-cob { background-color: #84CCEF;
+
+    
+  }
+}
+
+
+@media (min-width: 480px) {
+  .container-cob { background-color: #46AAC6;
+
+    
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container-cob { background-color: #176183;
+
+    
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .container-cob { background-color: #0C7BAD;
+   
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .container-cob { background-color: #578397;
+   
+  }
+
+  
+}
+@media only screen and (min-width: 1280px) {
+  .container-cob { background-color: #36505C;
+  
+  }
+
+  
+}
+
+@media only screen and (min-width: 1366px) {
+  .container-cob { background-color: #304651;
+  
+  }
+}
